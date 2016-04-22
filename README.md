@@ -7,8 +7,9 @@ You can also order the PCB directly here: https://oshpark.com/shared_projects/Iu
 
 # Features
 
--Both Xbridge & Xdrip circuit support, selectable via a switch
--Battery can be soldered directly on the PCB or via a JST-2 connector
+- Both Xbridge & Xdrip circuit support, selectable via a switch
+- Battery can be soldered directly on the PCB or via a JST-2 connector
+- Charging Status LED
 
 # Components:
 
@@ -19,7 +20,7 @@ You can also order the PCB directly here: https://oshpark.com/shared_projects/Iu
 - 1x micro usb socket (ebay id: 121829362799)
 - 1x MAX1811 lithium charger IC
 - 1x JST-2 connector (optional)
-- 1x HM-11 Bluetooth V4.0 Transceiver BLE Module
+- 1x HM-11 Bluetooth V4.0 Transceiver BLE Module (i got the one from fasttech)
 - 1x Polulu Wixel
 - 1x LiPo/Li-ion Battery
 
@@ -27,6 +28,7 @@ Attention! The MAX1811 Charger IC is set to 500mah. Only use a battery with more
 
 # PCB Assembly
 
+The components are large enough to be soldered by hand, the trickiest for me was the micro usb socket. If you use a hot air rework station (35$ on ebay) it should be easy.
 ![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/PCB%20Layout.png)
 
 
