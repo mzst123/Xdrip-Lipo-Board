@@ -7,6 +7,7 @@ You can also order the PCB directly here: https://oshpark.com/shared_projects/Iu
 
 # Features
 
+- The board uses a MAX1811 battery charging ic
 - Both Xbridge & Xdrip circuit support, selectable via a switch
 - Battery can be soldered directly on the PCB or via a JST-2 connector
 - Charging Status LED
@@ -28,10 +29,15 @@ Attention! The MAX1811 Charger IC is set to 500mah. Only use a battery with more
 
 # PCB Assembly
 
-The components are large enough to be soldered by hand, the trickiest for me was the micro usb socket. If you use a hot air rework station (35$ on ebay) it should be easy.
+Everything is labeled on the PCB. The components are large enough to be soldered by hand, the trickiest for me was the micro usb socket. But if you use a hot air rework station (40$ on ebay) it should be very easy.
 ![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/PCB%20Layout.png)
 
 
 # Schematics
 
 ![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Schematics.png)
+
+# Pictures
+
+![alt text]()
+![alt text]()
