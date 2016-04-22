@@ -1,9 +1,7 @@
 # Xdrip-Lipo-Board
-Xdrip on a printed circuit board
+Xdrip on a printed circuit board!
 
-Here you can find the Eagle files for the Xdrip-Lipo-Board
-
-You can also order the PCB directly here: https://oshpark.com/shared_projects/IuYnoGB9
+You can order the PCB directly here: https://oshpark.com/shared_projects/IuYnoGB9
 
 # Features
 
@@ -39,5 +37,6 @@ Everything is labeled on the PCB. The components are large enough to be soldered
 
 # Pictures
 
-![alt text]()
-![alt text]()
+![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Top.png)
+![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Bottom.png)
+![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Side.png)
