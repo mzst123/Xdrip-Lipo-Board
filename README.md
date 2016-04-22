@@ -13,9 +13,9 @@ You can order the PCB directly here: https://oshpark.com/shared_projects/IuYnoGB
 # Components:
 
 - 3x 1206 SMD Resitors (150Ω, 10kΩ, 27kΩ)
-- 1x 1206 Red LED (any led should work)
 - 2x 1206 SMD Capacitor 10μf
 - 2x micro switch MSK-12C02
+- 1x 1206 Red LED (any led should work)
 - 1x micro usb socket (ebay id: 121829362799)
 - 1x MAX1811 lithium charger IC
 - 1x JST-2 connector (optional)
