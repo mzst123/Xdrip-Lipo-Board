@@ -33,17 +33,17 @@ Everything is labeled on the PCB. The components are large enough to be soldered
 
 # Schematics
 
-![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Schematics.png)
+![Schematics](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Schematics.png)
 
 
 # 3D Enclosure
 I made an enclosure, however it has not been tested yet. To further reduce space, the JST-2 connector is not used in this enclosure. In the future I might add one with JST-2 support. The battery compartment should fit an 850mah Lipo Battery.
-![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Enclosure/3D_render)
+![Enclosure](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Enclosure/3D_render)
 
 
 # Pictures
 
-![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Top.JPG)
-![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Bottom.JPG)
-![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Side.JPG)
-![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Screenshot.png)
+![Top View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Top.JPG)
+![Bottom View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Bottom.JPG)
+![Side View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Side.JPG)
+![Screenshot](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Screenshot.png)
