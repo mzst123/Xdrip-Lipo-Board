@@ -3,7 +3,7 @@ Xdrip on a printed circuit board!
 
 You can order the PCB directly here: https://oshpark.com/shared_projects/IuYnoGB9
 
-# Features
+# Features:
 
 - The board uses a MAX1811 battery charging ic
 - Both Xbridge & Xdrip circuit support, selectable via a switch
@@ -25,22 +25,22 @@ You can order the PCB directly here: https://oshpark.com/shared_projects/IuYnoGB
 
 Attention! The MAX1811 Charger IC is set to 500mah. Only use a battery with more than 500mah.
 
-# PCB Assembly
+# PCB Assembly:
 
 Everything is labeled on the PCB. The components are large enough to be soldered by hand, the trickiest for me was the micro usb socket. But if you use a hot air rework station (40$ on ebay) it should be very easy.
 ![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/PCB%20Layout.png)
 
 
-# Schematics
+# Schematics:
 
 ![Schematics](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Schematics.png)
 
 
-# 3D Enclosure
+# 3D Enclosure:
 I made an enclosure, however it has not been tested yet. To further reduce space, the JST-2 connector is not used in this enclosure. In the future I might add one with JST-2 support. The battery compartment should fit an 850mah Lipo Battery.
 ![Enclosure](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Enclosure/3D_render.png)
 
-# Pictures
+# Pictures:
 
 ![Top View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Top.JPG)
 ![Bottom View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Bottom.JPG)
