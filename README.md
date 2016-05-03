@@ -37,7 +37,7 @@ Everything is labeled on the PCB. The components are large enough to be soldered
 
 
 # 3D Enclosure:
-I made an enclosure, however it has not been tested yet. To further reduce space, the JST-2 connector is not used in this design. In the future I might add one with JST-2 support. The battery compartment should fit an 850mah Lipo Battery.
+I made an enclosure, however it has not been tested yet. To further reduce space, the JST-2 connector is not used in this design. In the future I might add one with JST-2 support. The battery compartment should fit an 850mah Lipo Battery. The .STL files are int the "Enclosure" Folder.
 ![Enclosure](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Images/3D_render.png)
 
 # Pictures:
