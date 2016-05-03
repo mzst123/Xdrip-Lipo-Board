@@ -28,12 +28,12 @@ Attention! The MAX1811 Charger IC is set to 500mah. Only use a battery with more
 # PCB Assembly:
 
 Everything is labeled on the PCB. The components are large enough to be soldered by hand, the trickiest for me was the micro usb socket. But if you use a hot air rework station (40$ on ebay) it should be very easy.
-![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/images/PCB%20Layout.png)
+![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Images/PCB%20Layout.png)
 
 
 # Schematics:
 
-![Schematics](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/images/Schematics.png)
+![Schematics](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Images/Schematics.png)
 
 
 # 3D Enclosure:
@@ -42,7 +42,7 @@ I made an enclosure, however it has not been tested yet. To further reduce space
 
 # Pictures:
 
-![Top View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/images/Top.JPG)
-![Bottom View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/images/Bottom.JPG)
-![Side View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/images/Side.JPG)
-![Screenshot](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/images/Screenshot.png)
+![Top View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Images/Top.JPG)
+![Bottom View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Images/Bottom.JPG)
+![Side View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Images/Side.JPG)
+![Screenshot](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Images/Screenshot.png)
