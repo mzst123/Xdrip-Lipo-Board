@@ -47,6 +47,7 @@ Everything is labeled on the PCB. The components are large enough to be soldered
 
 ## Software:
 For the Wixel software i recommend [xBridge](https://github.com/jstevensog/wixel-sdk/tree/master/apps/xBridge2) from [John] (https://github.com/jstevensog). Just download the .wxl file and load it to the wixel. There are many advantages of xBridge, for example you don't have to re-compile the program to change transmitters because you can set it inside the xDrip app, improoved power saving features, battery level estimate, etc...
+
 [Here](https://github.com/StephenBlackWasAlreadyTaken/xDrip/wiki/xdrip-beta) you can download the latest xDrip android app.
 
 ## 3D Enclosure:
