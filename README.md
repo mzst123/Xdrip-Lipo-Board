@@ -18,8 +18,8 @@ You can order the PCB directly here: https://oshpark.com/shared_projects/IuYnoGB
 - 1x 1206 Red LED (any led should work)
 - 1x micro usb socket (ebay id: 121829362799)
 - 1x MAX1811 lithium charger IC
-- 1x JST-2 connector (optional)
-- 1x HM-11 Bluetooth V4.0 Transceiver BLE Module (i got the one from fasttech)
+- 1x JST-2 connector (optional - your battery needs to have the mating connector - sparkfun sells compatible batteries, or buy the connector separately and crimp it on your battery)
+- 1x HM-11 Bluetooth V4.0 Transceiver BLE Module (I got the one from fasttech)
 - 1x Polulu Wixel
 - 1x LiPo/Li-ion Battery
 
@@ -33,6 +33,7 @@ I source most of my components from eBay because of the free shipping. Here are 
 - [micro usb socket](http://www.ebay.com/itm/2015-New-10Pcs-Micro-USB-B-Female-5Pin-SMT-Socket-Connector-Hot-Sale-MO-/401091696043?hash=item5d62ed95ab:g:R2kAAOSwDNdVpfv5)
 - [Max1811](http://www.ebay.com/itm/1PCS-USB-LI-CHARGER-IC-MAXIM-SOP-8-MAX1811ESA-MAX1811ESA-MAX1811ESA-T-/272041007390?hash=item3f56e8591e:g:rx0AAOSwAYtWPgb~)
 - [LiPo battery](http://www.ebay.com/itm/3-7V-850mAh-Lipo-Polymer-li-ion-Battery-703040-for-cell-phone-Camera-DVD-GPS-PAD-/111909510772?hash=item1a0e539e74:g:FAoAAOSwFNZWxojb)
+- [Bluetooth module(Fasttech)](https://www.fasttech.com/product/1740900-hm-11-bluetooth-v4-0-transceiver-ble-module)
 
 
 ## PCB Assembly:
