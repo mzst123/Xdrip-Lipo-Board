@@ -21,7 +21,7 @@ You can order the PCB directly here: https://oshpark.com/shared_projects/IuYnoGB
 - 1x JST-2 connector (optional - your battery needs to have the mating connector - sparkfun sells compatible batteries, or buy the connector separately and crimp it on your battery)
 - 1x HM-11 Bluetooth V4.0 Transceiver BLE Module (I got the one from fasttech)
 - 1x Polulu Wixel
-- 1x LiPo/Li-ion Battery
+- 1x LiPo/Li-ion Battery (I recommend using a LiPo battery)
 
 Attention! The MAX1811 Charger IC is set to 500mah. Only use a battery with more than 500mah.
 
