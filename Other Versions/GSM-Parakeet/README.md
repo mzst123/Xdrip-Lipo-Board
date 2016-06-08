@@ -39,4 +39,4 @@ The charging Current schould be set dependent on the battery used. Always use a 
 
 ## Schematics:
 
-![Schematics](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Images/Schematics.png)
+![Schematics](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Other%20Versions/GSM-Parakeet/Parakeet-sch.png)
