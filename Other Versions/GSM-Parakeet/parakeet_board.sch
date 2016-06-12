@@ -8161,83 +8161,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </deviceset>
 </devicesets>
 </library>
-<library name="SIM800L Module">
-<packages>
-<package name="SIM800L_GSM_MODULE">
-<wire x1="-12.5" y1="-11.5" x2="12.5" y2="-11.5" width="0.127" layer="21"/>
-<wire x1="12.5" y1="-11.5" x2="12.5" y2="11.5" width="0.127" layer="21"/>
-<wire x1="12.5" y1="11.5" x2="-12.5" y2="11.5" width="0.127" layer="21"/>
-<wire x1="-12.5" y1="11.5" x2="-12.5" y2="-11.5" width="0.127" layer="21"/>
-<text x="-5.08" y="12.7" size="1.27" layer="25">Sim card slot</text>
-<pad name="P$12" x="11" y="-8.05" drill="0.9" shape="octagon"/>
-<pad name="P$11" x="11" y="-5.51" drill="0.9" shape="octagon"/>
-<pad name="P$10" x="11" y="-2.97" drill="0.9" shape="octagon"/>
-<pad name="P$9" x="11" y="-0.43" drill="0.9" shape="octagon"/>
-<pad name="P$8_DTR" x="11" y="2.11" drill="0.9" shape="octagon"/>
-<pad name="P$7" x="11" y="4.65" drill="0.9" shape="octagon"/>
-<pad name="P$6_GND" x="-11" y="-6.65" drill="0.9" shape="octagon"/>
-<pad name="P$5_TXD" x="-11" y="-4.11" drill="0.9" shape="octagon"/>
-<pad name="P$4_RXD" x="-11" y="-1.57" drill="0.9" shape="octagon"/>
-<pad name="P$3" x="-11" y="0.97" drill="0.9" shape="octagon"/>
-<pad name="P$2_VIN" x="-11" y="3.51" drill="0.9" shape="octagon"/>
-<pad name="P$1" x="-11" y="6.05" drill="0.9" shape="octagon"/>
-<wire x1="-8.89" y1="3.81" x2="8.89" y2="3.81" width="0.127" layer="21"/>
-<wire x1="8.89" y1="3.81" x2="8.89" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="8.89" y1="-8.89" x2="-8.89" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="-8.89" x2="-8.89" y2="3.81" width="0.127" layer="21"/>
-<text x="-3.81" y="1.27" size="1.4224" layer="21">SIM800L</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SIM800L_MODULE">
-<wire x1="-12.5" y1="11.5" x2="12.5" y2="11.5" width="0.254" layer="94"/>
-<wire x1="12.5" y1="11.5" x2="12.5" y2="-11.5" width="0.254" layer="94"/>
-<wire x1="12.5" y1="-11.5" x2="-12.5" y2="-11.5" width="0.254" layer="94"/>
-<wire x1="-12.5" y1="-11.5" x2="-12.5" y2="11.5" width="0.254" layer="94"/>
-<pin name="P$1" x="-17.78" y="7.62" length="middle"/>
-<pin name="P$2_VIN" x="-17.78" y="5.08" length="middle"/>
-<pin name="P$3" x="-17.78" y="2.54" length="middle"/>
-<pin name="P$4_RXD" x="-17.78" y="0" length="middle"/>
-<pin name="P$5_TXD" x="-17.78" y="-2.54" length="middle"/>
-<pin name="P$6_GND" x="-17.78" y="-5.08" length="middle"/>
-<pin name="P$7" x="17.78" y="7.62" length="middle" rot="R180"/>
-<pin name="P$8_DTR" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="P$9" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="P$10" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="P$11" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="P$12" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<text x="-3.556" y="-9.906" size="1.27" layer="94">SIM800L</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SIM800L_GSM_MODULE">
-<gates>
-<gate name="G$1" symbol="SIM800L_MODULE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SIM800L_GSM_MODULE">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$10" pad="P$10"/>
-<connect gate="G$1" pin="P$11" pad="P$11"/>
-<connect gate="G$1" pin="P$12" pad="P$12"/>
-<connect gate="G$1" pin="P$2_VIN" pad="P$2_VIN"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4_RXD" pad="P$4_RXD"/>
-<connect gate="G$1" pin="P$5_TXD" pad="P$5_TXD"/>
-<connect gate="G$1" pin="P$6_GND" pad="P$6_GND"/>
-<connect gate="G$1" pin="P$7" pad="P$7"/>
-<connect gate="G$1" pin="P$8_DTR" pad="P$8_DTR"/>
-<connect gate="G$1" pin="P$9" pad="P$9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="MSK-12C02 SMD Micro Slider Switch SPDT">
 <packages>
 <package name="MSK-12C02">
@@ -8459,6 +8382,66 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SIM800L Module">
+<packages>
+<package name="SIM800L_PARAKEET_ONLY">
+<wire x1="-12.5" y1="-10.23" x2="12.5" y2="-10.23" width="0.127" layer="21"/>
+<wire x1="12.5" y1="-10.23" x2="12.5" y2="12.77" width="0.127" layer="21"/>
+<wire x1="12.5" y1="12.77" x2="-12.5" y2="12.77" width="0.127" layer="21"/>
+<wire x1="-12.5" y1="12.77" x2="-12.5" y2="-10.23" width="0.127" layer="21"/>
+<text x="-5.08" y="15.24" size="1.4224" layer="25">SimCard</text>
+<pad name="P$8_DTR" x="11" y="3.38" drill="0.9" shape="octagon"/>
+<pad name="P$6_GND" x="-11" y="-5.38" drill="0.9" shape="octagon"/>
+<pad name="P$5_TXD" x="-11" y="-2.84" drill="0.9" shape="octagon"/>
+<pad name="P$4_RXD" x="-11" y="-0.3" drill="0.9" shape="octagon"/>
+<pad name="P$2_VIN" x="-11" y="4.78" drill="0.9" shape="octagon"/>
+<wire x1="-8.89" y1="5.08" x2="8.89" y2="5.08" width="0.127" layer="21"/>
+<wire x1="8.89" y1="5.08" x2="8.89" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-7.62" x2="-8.89" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-7.62" x2="-8.89" y2="5.08" width="0.127" layer="21"/>
+<text x="-3.81" y="2.54" size="1.4224" layer="25">SIM800L</text>
+<wire x1="-9.525" y1="13.97" x2="-9.525" y2="19.05" width="0.4064" layer="21"/>
+<wire x1="-9.525" y1="19.05" x2="5.715" y2="19.05" width="0.4064" layer="21"/>
+<wire x1="5.715" y1="19.05" x2="9.525" y2="15.24" width="0.4064" layer="21"/>
+<wire x1="9.525" y1="15.24" x2="9.525" y2="13.97" width="0.4064" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SIM800L_PARAKEET_ONLY">
+<wire x1="-12.5" y1="11.5" x2="12.5" y2="11.5" width="0.254" layer="94"/>
+<wire x1="12.5" y1="11.5" x2="12.5" y2="-11.5" width="0.254" layer="94"/>
+<wire x1="12.5" y1="-11.5" x2="-12.5" y2="-11.5" width="0.254" layer="94"/>
+<wire x1="-12.5" y1="-11.5" x2="-12.5" y2="11.5" width="0.254" layer="94"/>
+<pin name="P$2_VIN" x="-17.78" y="5.08" length="middle"/>
+<pin name="P$4_RXD" x="-17.78" y="0" length="middle"/>
+<pin name="P$5_TXD" x="-17.78" y="-2.54" length="middle"/>
+<pin name="P$6_GND" x="-17.78" y="-5.08" length="middle"/>
+<pin name="P$8_DTR" x="17.78" y="5.08" length="middle" rot="R180"/>
+<text x="-3.556" y="-9.906" size="1.27" layer="94">SIM800L</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SIM800L_PARAKEET_ONLY">
+<gates>
+<gate name="G$1" symbol="SIM800L_PARAKEET_ONLY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIM800L_PARAKEET_ONLY">
+<connects>
+<connect gate="G$1" pin="P$2_VIN" pad="P$2_VIN"/>
+<connect gate="G$1" pin="P$4_RXD" pad="P$4_RXD"/>
+<connect gate="G$1" pin="P$5_TXD" pad="P$5_TXD"/>
+<connect gate="G$1" pin="P$6_GND" pad="P$6_GND"/>
+<connect gate="G$1" pin="P$8_DTR" pad="P$8_DTR"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8469,24 +8452,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="IC1" library="TP4056" deviceset="TP4056" device=""/>
-<part name="U$1" library="micro usb B - sparkfun - china - hole 4LEGS TEST" deviceset="MICRO-USB-B" device=""/>
-<part name="R_PROG" library="resistor" deviceset="R-EU_" device="R1206" value="1.2K=1A"/>
-<part name="C1" library="resistor" deviceset="C-EU" device="C1206" value="10uf"/>
+<part name="TP4056" library="TP4056" deviceset="TP4056" device=""/>
+<part name="USB" library="micro usb B - sparkfun - china - hole 4LEGS TEST" deviceset="MICRO-USB-B" device=""/>
+<part name="R_PROG" library="resistor" deviceset="R-EU_" device="R1206" value="1.2KΩ=1A"/>
+<part name="C1" library="resistor" deviceset="C-EU" device="C1206" value="10μf"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206" value="RED"/>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_1206" value="GREEN"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="R1206" value="1K"/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="R1206" value="1K"/>
-<part name="C2" library="resistor" deviceset="C-EU" device="C1206" value="10uf"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="R1206" value="150Ω"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="R1206" value="150Ω"/>
+<part name="C2" library="resistor" deviceset="C-EU" device="C1206" value="10μf"/>
 <part name="+" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="BAT"/>
 <part name="JST2" library="SparkFun-Connectors" deviceset="M02" device="-JST-2MM-SMT" value="+"/>
-<part name="U$2" library="SIM800L Module" deviceset="SIM800L_GSM_MODULE" device=""/>
-<part name="U$3" library="MSK-12C02 SMD Micro Slider Switch SPDT" deviceset="MSK-12C02_SMD_SPDT_SWITCH" device=""/>
+<part name="SWITCH" library="MSK-12C02 SMD Micro Slider Switch SPDT" deviceset="MSK-12C02_SMD_SPDT_SWITCH" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$4" library="wixel" deviceset="WIXEL_PARAKEET_ONLY" device=""/>
+<part name="WIXEL" library="wixel" deviceset="WIXEL_PARAKEET_ONLY" device=""/>
+<part name="SIM800L" library="SIM800L Module" deviceset="SIM800L_PARAKEET_ONLY" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8505,8 +8488,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 1.2        -   1000 </text>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="40.64" y="48.26"/>
-<instance part="U$1" gate="G$1" x="2.54" y="40.64"/>
+<instance part="TP4056" gate="G$1" x="40.64" y="48.26"/>
+<instance part="USB" gate="G$1" x="2.54" y="40.64"/>
 <instance part="R_PROG" gate="G$1" x="27.94" y="43.18"/>
 <instance part="C1" gate="G$1" x="60.96" y="30.48" rot="R270"/>
 <instance part="LED1" gate="G$1" x="83.82" y="45.72" rot="R270"/>
@@ -8516,20 +8499,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="C2" gate="G$1" x="27.94" y="35.56"/>
 <instance part="+" gate="G$1" x="101.6" y="33.02" rot="R180"/>
 <instance part="JST2" gate="G$1" x="101.6" y="48.26" rot="R180"/>
-<instance part="U$2" gate="G$1" x="160.02" y="40.64"/>
-<instance part="U$3" gate="MSK-12C02" x="102.87" y="60.96"/>
-<instance part="GND1" gate="1" x="109.22" y="73.66" rot="R180"/>
-<instance part="GND2" gate="1" x="134.62" y="73.66" rot="R180"/>
-<instance part="GND3" gate="1" x="134.62" y="17.78"/>
-<instance part="GND4" gate="1" x="142.24" y="17.78"/>
-<instance part="U$4" gate="G$1" x="121.92" y="40.64"/>
+<instance part="SWITCH" gate="MSK-12C02" x="102.87" y="60.96"/>
+<instance part="GND1" gate="1" x="109.22" y="71.12" rot="R180"/>
+<instance part="GND2" gate="1" x="134.62" y="71.12" rot="R180"/>
+<instance part="GND3" gate="1" x="134.62" y="15.24"/>
+<instance part="GND4" gate="1" x="139.7" y="15.24"/>
+<instance part="WIXEL" gate="G$1" x="121.92" y="40.64"/>
+<instance part="SIM800L" gate="G$1" x="157.48" y="40.64"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PROG"/>
+<pinref part="TP4056" gate="G$1" pin="PROG"/>
 <pinref part="R_PROG" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="43.18" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -8537,9 +8520,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="GND" class="0">
 <segment>
 <wire x1="20.32" y1="30.48" x2="20.32" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="TP4056" gate="G$1" pin="GND"/>
 <wire x1="20.32" y1="40.64" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="TEMP"/>
+<pinref part="TP4056" gate="G$1" pin="TEMP"/>
 <wire x1="35.56" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="45.72" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
 <junction x="20.32" y="40.64"/>
@@ -8551,7 +8534,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="27.94" y1="30.48" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="USB" gate="G$1" pin="GND"/>
 <wire x1="17.78" y1="30.48" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
 <junction x="20.32" y="30.48"/>
 <wire x1="91.44" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
@@ -8568,23 +8551,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="109.22" y1="71.12" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$1-GND1"/>
+<wire x1="109.22" y1="68.58" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="WIXEL" gate="G$1" pin="P$1-GND1"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="134.62" y1="71.12" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$12-GND2"/>
+<wire x1="134.62" y1="68.58" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="WIXEL" gate="G$1" pin="P$12-GND2"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="134.62" y1="20.32" x2="134.62" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$23-GND3"/>
+<wire x1="134.62" y1="17.78" x2="134.62" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="WIXEL" gate="G$1" pin="P$23-GND3"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$6_GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="142.24" y1="20.32" x2="142.24" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="17.78" x2="139.7" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="SIM800L" gate="G$1" pin="P$6_GND"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -8603,7 +8586,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="CHRG"/>
+<pinref part="TP4056" gate="G$1" pin="CHRG"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="43.18" x2="66.04" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="43.18" x2="66.04" y2="45.72" width="0.1524" layer="91"/>
@@ -8611,7 +8594,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="STDBY"/>
+<pinref part="TP4056" gate="G$1" pin="STDBY"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="40.64" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
@@ -8619,7 +8602,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="USB" gate="G$1" pin="VCC"/>
 <wire x1="17.78" y1="50.8" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="50.8" x2="63.5" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
@@ -8627,11 +8610,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="LED1" gate="G$1" pin="A"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="86.36" y1="45.72" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VCC"/>
+<pinref part="TP4056" gate="G$1" pin="VCC"/>
 <wire x1="35.56" y1="38.1" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="38.1" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 <junction x="27.94" y="50.8"/>
-<pinref part="IC1" gate="G$1" pin="CE"/>
+<pinref part="TP4056" gate="G$1" pin="CE"/>
 <wire x1="63.5" y1="45.72" x2="63.5" y2="50.8" width="0.1524" layer="91"/>
 <junction x="63.5" y="50.8"/>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -8641,7 +8624,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="BAT"/>
+<pinref part="TP4056" gate="G$1" pin="BAT"/>
 <wire x1="63.5" y1="38.1" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <junction x="63.5" y="30.48"/>
@@ -8653,7 +8636,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="+" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
 <junction x="88.9" y="33.02"/>
-<pinref part="U$3" gate="MSK-12C02" pin="COM"/>
+<pinref part="SWITCH" gate="MSK-12C02" pin="COM"/>
 <wire x1="95.25" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="60.96" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
 <junction x="88.9" y="48.26"/>
@@ -8661,41 +8644,42 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$5_TXD"/>
-<wire x1="142.24" y1="38.1" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$20-P1_7"/>
+<wire x1="139.7" y1="38.1" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="WIXEL" gate="G$1" pin="P$20-P1_7"/>
+<pinref part="SIM800L" gate="G$1" pin="P$5_TXD"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$4_RXD"/>
-<wire x1="142.24" y1="40.64" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$19-P1_6"/>
+<wire x1="139.7" y1="40.64" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="WIXEL" gate="G$1" pin="P$19-P1_6"/>
+<pinref part="SIM800L" gate="G$1" pin="P$4_RXD"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="U$3" gate="MSK-12C02" pin="L1"/>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
-<wire x1="142.24" y1="48.26" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="63.5" x2="106.68" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SWITCH" gate="MSK-12C02" pin="L1"/>
+<wire x1="137.16" y1="63.5" x2="106.68" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="63.5" x2="106.68" y2="57.404" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="57.404" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$2-VIN"/>
+<pinref part="WIXEL" gate="G$1" pin="P$2-VIN"/>
 <wire x1="105.41" y1="57.404" x2="106.68" y2="57.404" width="0.1524" layer="91"/>
 <junction x="106.68" y="57.404"/>
+<wire x1="139.7" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="45.72" x2="137.16" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SIM800L" gate="G$1" pin="P$2_VIN"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$8_DTR"/>
-<wire x1="180.34" y1="45.72" x2="177.8" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$16-P1_3"/>
-<wire x1="134.62" y1="48.26" x2="138.43" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="138.43" y1="48.26" x2="138.43" y2="54.61" width="0.1524" layer="91"/>
-<wire x1="138.43" y1="54.61" x2="180.34" y2="54.61" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="54.61" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="45.72" x2="175.26" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="WIXEL" gate="G$1" pin="P$16-P1_3"/>
+<wire x1="134.62" y1="48.26" x2="135.89" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="135.89" y1="48.26" x2="135.89" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="135.89" y1="54.61" x2="177.8" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="54.61" x2="177.8" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="SIM800L" gate="G$1" pin="P$8_DTR"/>
 </segment>
 </net>
 </nets>

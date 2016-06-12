@@ -1,7 +1,11 @@
 # Xdrip Lipo Board PCB
 Xdrip on a printed circuit board!
 
-You can order the PCB directly here: https://oshpark.com/shared_projects/IuYnoGB9
+The design files are in the folder "Eagle PCB Files"
+
+Or you can order the PCB directly [here](https://oshpark.com/shared_projects/IuYnoGB9)
+
+For other versions of this project check out the folder "Other Versions"
 
 ## Features:
 
