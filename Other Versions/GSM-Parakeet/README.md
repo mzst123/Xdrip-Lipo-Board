@@ -24,7 +24,7 @@ I had to switch to the TP4056 Charging IC because it has more power and is cheap
 # Setting the charging current
 
 You can individually set the charging current. Just change the RPROG resistor to the value you want.
-The charging Current schould be set dependent on the battery used. Always use a charging current equal or lower than the battery capacity.
+The charging Current should be set dependent on the battery used. Always use a charging current equal or lower than the battery capacity.
 
 |RPROG (kΩ)|IBAT(mA)| 
 |:--------:|:------:|
