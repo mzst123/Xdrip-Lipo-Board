@@ -1,7 +1,8 @@
 # GSM / Parakeet Version
 
 # Experimental Version - has not been tested yet
-Order the PCB directly [here](https://oshpark.com/shared_projects/kHjEdYyv)
+To order the PCB click [here](https://oshpark.com/shared_projects/kHjEdYyv).
+
 This version uses a GSM module (SIM800L) instead of bluetooth. Check the [Parakeet project](https://jamorham.github.io/) for more info.
 
 I had to switch to the TP4056 Charging IC because it has more power and is cheaper.
