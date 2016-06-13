@@ -149,10 +149,10 @@
 <hole x="33.655" y="78.2955" drill="1.5"/>
 <rectangle x1="4.826" y1="61.0235" x2="8.255" y2="63.4365" layer="29"/>
 <hole x="2.0955" y="78.2955" drill="1.5"/>
-<text x="23.0505" y="59.7535" size="1.4224" layer="25" rot="R270" align="center">12-Jun-2016
-Rev.03</text>
-<text x="13.081" y="75.438" size="1.778" layer="25" rot="R90">ON</text>
-<text x="5.6515" y="74.422" size="1.778" layer="25" rot="R90">OFF</text>
+<text x="21.336" y="59.817" size="1.4224" layer="25" rot="R270" align="center">12-Jun-2016
+Rev.04</text>
+<text x="12.065" y="78.0415" size="1.27" layer="25" rot="R90" align="center">ON</text>
+<text x="4.318" y="78.105" size="1.27" layer="25" rot="R90" align="center">OFF</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -1897,47 +1897,47 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="+" library="SparkFun-Connectors" package="1X02" value="BAT" x="2.032" y="73.5965" smashed="yes" rot="R270">
-<attribute name="NAME" x="1.1938" y="77.1017" size="1.6764" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="3.8735" y="73.406" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="2.0193" y="76.0857" size="1.778" layer="25" ratio="10" rot="R270" align="center"/>
+<attribute name="VALUE" x="4.572" y="72.644" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="C1" library="resistor" package="C1206" value="10μf" x="9.3345" y="73.025" smashed="yes">
-<attribute name="NAME" x="8.31849375" y="74.42200625" size="1.27" layer="25"/>
-<attribute name="VALUE" x="7.365990625" y="70.485" size="1.27" layer="25"/>
+<attribute name="NAME" x="9.33449375" y="75.24750625" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="9.3345" y="73.025009375" size="0.8128" layer="25" rot="R270" align="center"/>
 </element>
 <element name="C2" library="resistor" package="C1206" value="10μf" x="2.0955" y="62.23" smashed="yes" rot="R90">
-<attribute name="NAME" x="2.2225" y="57.404" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="2.2225" y="65.2145" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="2.0955" y="65.4685" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="2.0955" y="62.23" size="0.8128" layer="25" align="center"/>
 </element>
 <element name="TP4056" library="TP4056" package="SOP-8" value="TP4056" x="6.5405" y="62.23" smashed="yes" rot="R90">
-<attribute name="NAME" x="10.4775" y="58.801" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="9.906" y="62.23" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="JST2" library="SparkFun-Connectors" package="JST-2-SMD" value="+" x="8.636" y="46.863" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-11443" x="8.636" y="46.863" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="10.4775" y="46.4185" size="1.016" layer="25" rot="R180"/>
-<attribute name="VALUE" x="8.382" y="43.4975" size="1.4224" layer="25" rot="R180"/>
+<attribute name="NAME" x="8.6995" y="46.228" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="7.493" y="42.926" size="1.778" layer="25" rot="R180" align="center"/>
 </element>
 <element name="LED1" library="led" package="CHIPLED_1206" value="RED" x="33.401" y="70.2945" smashed="yes">
-<attribute name="NAME" x="29.7815" y="75.057" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="28.067" y="74.422" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="30.48" y="72.7075" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="VALUE" x="33.401" y="74.7395" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="LED2" library="led" package="CHIPLED_1206" value="GREEN" x="33.401" y="64.516" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.4165" y="62.611" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="28.575" y="61.976" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="29.4005" y="64.516" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="30.9245" y="64.516" size="1.016" layer="25" rot="R270" align="center"/>
 </element>
 <element name="R2" library="resistor" package="R1206" value="150Ω" x="30.5435" y="75.3745" smashed="yes" rot="MR180">
-<attribute name="NAME" x="31.369" y="72.644" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="26.0985" y="72.644" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="30.5435" y="71.9455" size="1.27" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="30.5435" y="75.3745" size="0.8128" layer="26" rot="MR270" align="center"/>
 </element>
 <element name="R3" library="resistor" package="R1206" value="150Ω" x="33.4645" y="54.991" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.083" y="53.848" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="30.988" y="52.451" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="30.7975" y="54.991" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="33.4645" y="54.991" size="0.8128" layer="25" align="center"/>
 </element>
-<element name="R_PROG" library="resistor" package="R1206" value="1.2KΩ=1A" x="4.826" y="56.8325" smashed="yes">
-<attribute name="NAME" x="1.5875" y="53.2765" size="1.27" layer="25"/>
-<attribute name="VALUE" x="10.033" y="53.213" size="1.27" layer="25"/>
+<element name="R_PROG" library="resistor" package="R1206" value="1.2KΩ" x="4.826" y="56.8325" smashed="yes">
+<attribute name="NAME" x="4.826" y="53.721" size="1.016" layer="25" align="center"/>
+<attribute name="VALUE" x="4.826" y="56.769" size="0.8128" layer="25" rot="R270" align="center"/>
 </element>
 <element name="USB" library="micro usb B - sparkfun - china - hole 4LEGS TEST" package="MICRO_USB_4_LEGS" value="MICRO-USB-B" x="22.86" y="77.9145" smashed="yes" rot="MR270">
-<attribute name="NAME" x="20.7645" y="72.898" size="1.6764" layer="26" rot="MR180"/>
+<attribute name="NAME" x="22.86" y="71.8185" size="1.27" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="21.209" y="72.7075" size="0.4064" layer="28" rot="MR180"/>
 </element>
 <element name="SWITCH" library="MSK-12C02 SMD Micro Slider Switch SPDT" package="MSK-12C02" value="MSK-12C02_SMD_SPDT_SWITCH" x="8.128" y="78.0415" smashed="yes" rot="MR180">
@@ -1946,7 +1946,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="WIXEL" library="wixel" package="WIXEL_PARAKEET_ONLY" value="WIXEL_PARAKEET_ONLY" x="22.86" y="62.23" smashed="yes"/>
 <element name="SIM800L" library="SIM800L Module" package="SIM800L_PARAKEET_ONLY" value="SIM800L_PARAKEET_ONLY" x="22.6695" y="62.865" smashed="yes" rot="MR180"/>
-<element name="U$1" library="LOGO" package="PARAKEET_VECTOR" value="" x="8.89" y="54.61" rot="MR0"/>
+<element name="U$1" library="LOGO" package="PARAKEET_VECTOR" value="" x="8.636" y="54.61" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$1">

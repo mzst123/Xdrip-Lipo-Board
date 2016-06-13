@@ -8454,7 +8454,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="TP4056" library="TP4056" deviceset="TP4056" device=""/>
 <part name="USB" library="micro usb B - sparkfun - china - hole 4LEGS TEST" deviceset="MICRO-USB-B" device=""/>
-<part name="R_PROG" library="resistor" deviceset="R-EU_" device="R1206" value="1.2KΩ=1A"/>
+<part name="R_PROG" library="resistor" deviceset="R-EU_" device="R1206" value="1.2KΩ"/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C1206" value="10μf"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206" value="RED"/>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_1206" value="GREEN"/>
