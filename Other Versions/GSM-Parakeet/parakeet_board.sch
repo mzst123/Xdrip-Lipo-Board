@@ -8466,7 +8466,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SWITCH" library="MSK-12C02 SMD Micro Slider Switch SPDT" deviceset="MSK-12C02_SMD_SPDT_SWITCH" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="WIXEL" library="wixel" deviceset="WIXEL_PARAKEET_ONLY" device=""/>
 <part name="SIM800L" library="SIM800L Module" deviceset="SIM800L_PARAKEET_ONLY" device=""/>
@@ -8500,10 +8499,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="+" gate="G$1" x="101.6" y="33.02" rot="R180"/>
 <instance part="JST2" gate="G$1" x="101.6" y="48.26" rot="R180"/>
 <instance part="SWITCH" gate="MSK-12C02" x="102.87" y="60.96"/>
-<instance part="GND1" gate="1" x="109.22" y="71.12" rot="R180"/>
-<instance part="GND2" gate="1" x="134.62" y="71.12" rot="R180"/>
-<instance part="GND3" gate="1" x="134.62" y="15.24"/>
-<instance part="GND4" gate="1" x="139.7" y="15.24"/>
+<instance part="GND1" gate="1" x="109.22" y="68.58" rot="R180"/>
+<instance part="GND2" gate="1" x="134.62" y="68.58" rot="R180"/>
+<instance part="GND4" gate="1" x="139.7" y="25.4"/>
 <instance part="WIXEL" gate="G$1" x="121.92" y="40.64"/>
 <instance part="SIM800L" gate="G$1" x="157.48" y="40.64"/>
 </instances>
@@ -8551,23 +8549,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="109.22" y1="68.58" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="66.04" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="WIXEL" gate="G$1" pin="P$1-GND1"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="134.62" y1="68.58" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="66.04" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="WIXEL" gate="G$1" pin="P$12-GND2"/>
 </segment>
 <segment>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="134.62" y1="17.78" x2="134.62" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="WIXEL" gate="G$1" pin="P$23-GND3"/>
-</segment>
-<segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="139.7" y1="17.78" x2="139.7" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="SIM800L" gate="G$1" pin="P$6_GND"/>
+<wire x1="139.7" y1="27.94" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="30.48" x2="139.7" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
+<junction x="139.7" y="30.48"/>
 </segment>
 </net>
 <net name="N$3" class="0">
