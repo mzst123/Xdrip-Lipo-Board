@@ -43,7 +43,11 @@ The charging Current should be set dependent on the battery used. Always use a c
 
 ![Schematics](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Other%20Versions/GSM-Parakeet/Parakeet-sch.png)
 
+
 ## Pictures:
 
+
 ![Top View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Other%20Versions/GSM-Parakeet/top.png)
+
+
 ![Bottom View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Other%20Versions/GSM-Parakeet/bottom.png)
