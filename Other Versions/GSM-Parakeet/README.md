@@ -1,7 +1,7 @@
 # GSM / Parakeet Version
 
 # Experimental Version - has not been tested yet
-To order the PCB click [here](https://oshpark.com/shared_projects/5fGbcBVY).
+To order the PCB click [here](https://oshpark.com/shared_projects/A8Uusz6A).
 
 This version uses a GSM module (SIM800L) instead of bluetooth. Check the [Parakeet project](https://jamorham.github.io/) for more info.
 
