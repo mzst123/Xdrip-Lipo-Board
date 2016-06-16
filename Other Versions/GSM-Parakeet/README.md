@@ -7,6 +7,15 @@ This version uses a GSM module (SIM800L) instead of bluetooth. Check the [Parake
 
 I had to switch to the TP4056 Charging IC because it has more power and is cheaper.
 
+
+## Features:
+
+- The board uses a TP4056 battery charging ic with a maximum charging power of 1000mA
+- SIM800L Module sends the CGM data directly to the cloud
+- Battery can be soldered directly on the PCB (2.54mm header) or via a JST-2 connector (2mm pitch)
+- Charging Status LED, Red = charging; Green = Full
+
+
 # Components
 
 - SIM800L GSM Module

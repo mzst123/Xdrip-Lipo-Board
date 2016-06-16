@@ -13,8 +13,8 @@ For other versions of this project check out the folder ["Other Versions"](https
 
 - The board uses a MAX1811 battery charging ic
 - Both Xbridge & Xdrip circuit support, selectable via a switch
-- Battery can be soldered directly on the PCB or via a JST-2 connector
-- Charging Status LED
+- Battery can be soldered directly on the PCB (2.54mm header) or via a JST-2 connector (2mm pitch)
+- Charging Status LED (On = charging; off = full)
 
 ## Components:
 
