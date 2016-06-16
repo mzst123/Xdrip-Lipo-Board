@@ -18,6 +18,10 @@ I had to switch to the TP4056 Charging IC because it has more power and is cheap
 
 # Components
 
+
+Most can be sourced from eBay
+
+
 - SIM800L GSM Module
 - 1x Polulu Wixel
 - TP4056 Li Charging IC
@@ -25,10 +29,10 @@ I had to switch to the TP4056 Charging IC because it has more power and is cheap
 - 1x 1.2kΩ Resistor (RPROG - 1.2kΩ=1000mA - Depends on Charging current - Check table below)
 - 2x 330Ω Resistor
 - 2x 1206 LED (1 Red and 1 Green)
-- 1x Micro USB Connector Female 4Legs
+- 1x [Micro USB Connector Female 4Legs](http://www.ebay.com/itm/10Pcs-Micro-USB-Type-B-Female-Socket-4-Vertical-Legs-For-Solder-Connectors-/351570406777?hash=item51db3aad79:g:UUwAAOSwu-BWOscw)
 - 1x micro switch MSK-12C02
 - 1x LiPo/Li-ion Battery (I recommend using a LiPo battery)
-- 1x JST-2 connector (optional - your battery needs to have the mating connector - sparkfun sells compatible batteries, or buy the connector separately and crimp it on your battery)
+- 1x [JST-2 connector 2mm pitch](https://www.sparkfun.com/products/8612) (optional - your battery needs to have the mating connector - sparkfun sells compatible batteries, or buy the connector separately and crimp it on your battery)
 
 # Setting the charging current
 

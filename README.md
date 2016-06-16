@@ -24,7 +24,7 @@ For other versions of this project check out the folder ["Other Versions"](https
 - 1x 1206 Red LED (any led should work)
 - 1x micro usb socket (ebay id: 121829362799)
 - 1x MAX1811 lithium charger IC
-- 1x JST-2 connector (optional - your battery needs to have the mating connector - sparkfun sells compatible batteries, or buy the connector separately and crimp it on your battery)
+- 1x [JST-2 connector 2mm pitch](https://www.sparkfun.com/products/8612) (optional - your battery needs to have the mating connector - sparkfun sells compatible batteries, or buy the connector separately and crimp it on your battery)
 - 1x HM-11 Bluetooth V4.0 Transceiver BLE Module (I got the one from fasttech)
 - 1x Polulu Wixel
 - 1x LiPo/Li-ion Battery (I recommend using a LiPo battery)
