@@ -1,4 +1,4 @@
-# Xdrip Lipo Board PCB
+# Xdrip Lipo Bluetooth Board PCB
 Xdrip on a printed circuit board!
 
 The design files are in the folder ["Eagle PCB Files"](https://github.com/mzst123/Xdrip-Lipo-Board/tree/master/Eagle%20PCB%20Files)
@@ -7,7 +7,7 @@ Or you can order the PCB directly [here](https://oshpark.com/shared_projects/IuY
 
 For other versions of this project check out the folder ["Other Versions"](https://github.com/mzst123/Xdrip-Lipo-Board/tree/master/Other%20Versions)
 
-
+If you can't solder this board and need help send me an email and im sure we can figure something out. My e-mail address my github username at gmail.com
 
 ## Features:
 
