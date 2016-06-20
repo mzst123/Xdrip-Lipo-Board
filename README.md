@@ -45,6 +45,14 @@ I source most of my components from eBay because of the free shipping. Here are 
 ## PCB Assembly:
 
 Everything is labeled on the PCB. The components are large enough to be soldered by hand, the trickiest for me was the micro usb socket. But if you use a hot air rework station (40$ on ebay) it should be very easy.
+
+Here is a video how-to:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=SYGwYvehjtA
+" target="_blank"><img src="http://img.youtube.com/vi/SYGwYvehjtA/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
+
 ![alt text](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Images/PCB%20Layout.png)
 
 
