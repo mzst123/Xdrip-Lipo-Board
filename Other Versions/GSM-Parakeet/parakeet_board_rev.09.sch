@@ -6883,25 +6883,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="SIM800L Module">
 <packages>
 <package name="SIM800L_PARAKEET_ONLY">
-<wire x1="-12.5" y1="-10.23" x2="12.5" y2="-10.23" width="0.127" layer="21"/>
-<wire x1="12.5" y1="-10.23" x2="12.5" y2="12.77" width="0.127" layer="21"/>
-<wire x1="12.5" y1="12.77" x2="-12.5" y2="12.77" width="0.127" layer="21"/>
-<wire x1="-12.5" y1="12.77" x2="-12.5" y2="-10.23" width="0.127" layer="21"/>
-<text x="-5.08" y="15.24" size="1.4224" layer="25">SimCard</text>
-<pad name="P$8_DTR" x="11" y="3.38" drill="0.9" shape="octagon"/>
-<pad name="P$6_GND" x="-11" y="-5.38" drill="0.9" shape="octagon"/>
-<pad name="P$5_TXD" x="-11" y="-2.84" drill="0.9" shape="octagon"/>
-<pad name="P$4_RXD" x="-11" y="-0.3" drill="0.9" shape="octagon"/>
-<pad name="P$2_VIN" x="-11" y="4.78" drill="0.9" shape="octagon"/>
-<wire x1="-8.89" y1="5.08" x2="8.89" y2="5.08" width="0.127" layer="21"/>
-<wire x1="8.89" y1="5.08" x2="8.89" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="8.89" y1="-7.62" x2="-8.89" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="-7.62" x2="-8.89" y2="5.08" width="0.127" layer="21"/>
-<text x="-3.81" y="2.54" size="1.4224" layer="25">SIM800L</text>
-<wire x1="-9.525" y1="13.97" x2="-9.525" y2="19.05" width="0.4064" layer="21"/>
-<wire x1="-9.525" y1="19.05" x2="5.715" y2="19.05" width="0.4064" layer="21"/>
-<wire x1="5.715" y1="19.05" x2="9.525" y2="15.24" width="0.4064" layer="21"/>
-<wire x1="9.525" y1="15.24" x2="9.525" y2="13.97" width="0.4064" layer="21"/>
+<text x="11" y="24.5" size="1.4224" layer="25" align="center">SimCard</text>
+<wire x1="5.5" y1="23.5" x2="5.5" y2="28" width="0.4064" layer="21"/>
+<wire x1="5.5" y1="28" x2="14.5" y2="28" width="0.4064" layer="21"/>
+<wire x1="14.5" y1="28" x2="17.5" y2="25" width="0.4064" layer="21"/>
+<wire x1="17.5" y1="25" x2="17.5" y2="23.5" width="0.4064" layer="21"/>
+<wire x1="0" y1="0" x2="25.25" y2="0" width="0.127" layer="21"/>
+<wire x1="25.25" y1="0" x2="25.25" y2="23.4" width="0.127" layer="21"/>
+<wire x1="25.25" y1="23.4" x2="0" y2="23.4" width="0.127" layer="21"/>
+<wire x1="0" y1="23.4" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="P$8_DTR1" x="23.45" y="13.12" drill="0.9" shape="octagon"/>
+<pad name="P$6_GND1" x="1.8" y="5.5" drill="0.9" shape="octagon"/>
+<pad name="P$5_TXD1" x="1.8" y="8.04" drill="0.9" shape="octagon"/>
+<pad name="P$4_RXD1" x="1.8" y="10.58" drill="0.9" shape="octagon"/>
+<pad name="P$2_VIN1" x="1.8" y="15.66" drill="0.9" shape="octagon"/>
+<wire x1="4" y1="15" x2="21" y2="15" width="0.127" layer="21"/>
+<wire x1="21" y1="15" x2="21" y2="3" width="0.127" layer="21"/>
+<wire x1="21" y1="3" x2="4" y2="3" width="0.127" layer="21"/>
+<wire x1="4" y1="3" x2="4" y2="15" width="0.127" layer="21"/>
+<text x="12.5" y="10" size="2" layer="25" align="center">SIM800L</text>
+<text x="12.5" y="7.5" size="1.27" layer="25" align="center">GSM Module</text>
+<text x="11" y="26.5" size="1.27" layer="25" align="center">Micro</text>
 </package>
 </packages>
 <symbols>
@@ -6926,11 +6928,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <devices>
 <device name="" package="SIM800L_PARAKEET_ONLY">
 <connects>
-<connect gate="G$1" pin="P$2_VIN" pad="P$2_VIN"/>
-<connect gate="G$1" pin="P$4_RXD" pad="P$4_RXD"/>
-<connect gate="G$1" pin="P$5_TXD" pad="P$5_TXD"/>
-<connect gate="G$1" pin="P$6_GND" pad="P$6_GND"/>
-<connect gate="G$1" pin="P$8_DTR" pad="P$8_DTR"/>
+<connect gate="G$1" pin="P$2_VIN" pad="P$2_VIN1"/>
+<connect gate="G$1" pin="P$4_RXD" pad="P$4_RXD1"/>
+<connect gate="G$1" pin="P$5_TXD" pad="P$5_TXD1"/>
+<connect gate="G$1" pin="P$6_GND" pad="P$6_GND1"/>
+<connect gate="G$1" pin="P$8_DTR" pad="P$8_DTR1"/>
 </connects>
 <technologies>
 <technology name=""/>

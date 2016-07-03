@@ -1,7 +1,7 @@
 # GSM / Parakeet Version
 
 # Experimental Version - has not been tested yet
-To order the PCB click [here](https://oshpark.com/shared_projects/URbaNMlV).
+To order the PCB click [here](https://oshpark.com/shared_projects/ULWOZhT9).
 
 This version uses a GSM module (SIM800L) instead of bluetooth. Check the [Parakeet project](https://jamorham.github.io/) for more info.
 
@@ -60,7 +60,7 @@ The charging Current should be set dependent on the battery used. Always use a c
 ## Pictures:
 
 
-![Top View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Other%20Versions/GSM-Parakeet/img_top.png)
+![Top View](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/7fa87a1c6a92984cfb29e5c9aec2f850.png)
 
 
-![Bottom View](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Other%20Versions/GSM-Parakeet/img_bottom.png)
+![Bottom View](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/b242ee0a8cb389cda338bd81cfca9369.png)
