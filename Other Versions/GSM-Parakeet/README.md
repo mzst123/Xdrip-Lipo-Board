@@ -17,7 +17,9 @@ I had to switch to the TP4056 Charging IC because it has more power and is cheap
 
 ## Changelog
 rev.1.0 - added JST-XH footprint, improoved pcb traces and vias
+
 rev.0.9 - fixed SIM800L footprint, improoved pcb traces and vias
+
 rev.0.8 - first version ready to manufacture
 
 
