@@ -15,10 +15,10 @@ I had to switch to the TP4056 Charging IC because it has more power and is cheap
 - Battery can be soldered directly on the PCB (2.54mm header) or via a JST-2 connector (2mm pitch)
 - Charging Status LED, Red = charging; Green = Full
 - 4 ways to connect the battery: 
-..- JST-2 (sparkfun batteries)
-..- JST-XH (ebay batteries)
-..- 2.54mm pitch screw-in connector
-..- solder the wires directly
+- - JST-2 (sparkfun batteries)
+- - JST-XH (ebay batteries)
+- - 2.54mm pitch screw-in connector
+- - solder the wires directly
 
 ## Changelog
 rev.1.0 - added JST-XH footprint, improoved pcb traces and vias
