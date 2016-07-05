@@ -221,7 +221,7 @@
 <rectangle x1="-0.85" y1="-1.35" x2="0.85" y2="1.35" layer="29"/>
 <smd name="D+" x="3.125" y="0" dx="0.4" dy="1.85" layer="1" rot="R90"/>
 <smd name="D-" x="3.125" y="0.65" dx="0.4" dy="1.85" layer="1" rot="R90"/>
-<smd name="GND" x="3.125" y="-1.3" dx="0.4" dy="1.85" layer="1" rot="R90"/>
+<smd name="GND" x="3.125" y="-1.3" dx="0.4" dy="1.85" layer="1" rot="R90" thermals="no"/>
 <smd name="ID" x="3.125" y="-0.65" dx="0.4" dy="1.85" layer="1" rot="R90"/>
 <smd name="VCC" x="3.125" y="1.3" dx="0.4" dy="1.85" layer="1" rot="R90"/>
 <text x="-2.3" y="-0.85" size="0.3048" layer="51" rot="R90">PCB Front</text>
@@ -247,12 +247,7 @@
 <pin name="D+" x="15.24" y="0" length="middle" rot="R180"/>
 <pin name="ID" x="15.24" y="-5.08" length="middle" rot="R180"/>
 <pin name="GND" x="15.24" y="-10.16" length="middle" rot="R180"/>
-<text x="-2.54" y="-6.604" size="5.08" layer="95" rot="R90">USB</text>
-<text x="0" y="10.16" size="1.778" layer="96">VCC</text>
-<text x="0" y="5.08" size="1.778" layer="96">D-</text>
-<text x="0" y="0" size="1.778" layer="96">D+</text>
-<text x="0" y="-5.08" size="1.778" layer="96">ID</text>
-<text x="0" y="-10.16" size="1.778" layer="96">GND</text>
+<text x="-2.54" y="0" size="5.08" layer="95" rot="R90" align="center">USB</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -7272,6 +7267,58 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </deviceset>
 </devicesets>
 </library>
+<library name="JST-XH_HEADERS">
+<description>This libary is for adding JST-XH headers to you're project. It has pins 3-7. 
+This is usefull for ballance connectors on lithium polymer batteries from 2-6 cells. 
+The pin spacing was based on the datasheet that can be found here
+http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</description>
+<packages>
+<package name="2_PIN_JST-XH-B2B">
+<wire x1="0" y1="0" x2="0" y2="5.75" width="0.127" layer="21"/>
+<wire x1="0" y1="5.75" x2="7.5" y2="5.75" width="0.127" layer="21"/>
+<wire x1="7.5" y1="5.75" x2="7.5" y2="0" width="0.127" layer="21"/>
+<wire x1="7.5" y1="0" x2="5" y2="0" width="0.127" layer="21"/>
+<pad name="P$1" x="2.45" y="3.4" drill="0.85" shape="octagon" thermals="no"/>
+<pad name="P$2" x="5.05" y="3.4" drill="0.85" shape="square" thermals="no"/>
+<wire x1="5" y1="0" x2="2.5" y2="0" width="0.127" layer="21"/>
+<wire x1="2.5" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="2.5" y1="0" x2="2.5" y2="1" width="0.127" layer="21"/>
+<wire x1="5" y1="0" x2="5" y2="1" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="2_PIN_JST-XH-B2B">
+<pin name="P$1" x="-1.27" y="-9.398" length="middle" rot="R90"/>
+<pin name="P$2" x="1.27" y="-9.398" length="middle" rot="R90"/>
+<wire x1="-3.81" y1="-4.318" x2="-3.81" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="3.302" x2="3.81" y2="3.302" width="0.254" layer="94"/>
+<wire x1="3.81" y1="3.302" x2="3.81" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-4.318" x2="1.27" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-4.318" x2="-1.27" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-4.318" x2="-3.81" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-4.318" x2="-1.27" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-4.318" x2="1.27" y2="-1.778" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="2_PIN_JST-XH-B2B">
+<gates>
+<gate name="G$1" symbol="2_PIN_JST-XH-B2B" x="1.27" y="-1.27"/>
+</gates>
+<devices>
+<device name="" package="2_PIN_JST-XH-B2B">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7289,7 +7336,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="R1" library="resistor" deviceset="R-EU_" device="R1206" value="330Ω"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="R1206" value="330Ω"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C1206" value="10μf"/>
-<part name="+" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="BAT"/>
 <part name="JST2" library="SparkFun-Connectors" deviceset="M02" device="-JST-2MM-SMT" value="+"/>
 <part name="SWITCH" library="MSK-12C02 SMD Micro Slider Switch SPDT" deviceset="MSK-12C02_SMD_SPDT_SWITCH" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -7299,6 +7345,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="SIM800L" library="SIM800L Module" deviceset="SIM800L_PARAKEET_ONLY" device=""/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="1206" value="Red"/>
 <part name="LED2" library="SparkFun-LED" deviceset="LED" device="1206" value="Green"/>
+<part name="JST-XH" library="JST-XH_HEADERS" deviceset="2_PIN_JST-XH-B2B" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7324,7 +7371,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="R1" gate="G$1" x="71.12" y="45.72"/>
 <instance part="R2" gate="G$1" x="71.12" y="38.1"/>
 <instance part="C2" gate="G$1" x="22.86" y="35.56"/>
-<instance part="+" gate="G$1" x="101.6" y="33.02" rot="R180"/>
 <instance part="JST2" gate="G$1" x="101.6" y="48.26" rot="R180"/>
 <instance part="SWITCH" gate="MSK-12C02" x="102.87" y="60.96"/>
 <instance part="GND1" gate="1" x="109.22" y="68.58" rot="R180"/>
@@ -7334,6 +7380,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="SIM800L" gate="G$1" x="157.48" y="40.64"/>
 <instance part="LED1" gate="G$1" x="83.82" y="45.72" rot="R270"/>
 <instance part="LED2" gate="G$1" x="83.82" y="38.1" rot="R270"/>
+<instance part="JST-XH" gate="G$1" x="103.124" y="31.75" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -7372,13 +7419,15 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="JST2" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="45.72" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="45.72" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="+" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="30.48" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="30.48" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="30.48" x2="93.726" y2="30.48" width="0.1524" layer="91"/>
 <junction x="91.44" y="30.48"/>
 <junction x="22.86" y="30.48"/>
 <pinref part="TP4056" gate="G$1" pin="GND_PAD"/>
 <junction x="46.99" y="30.48"/>
+<pinref part="JST-XH" gate="G$1" pin="P$2"/>
+<wire x1="93.726" y1="30.48" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
+<junction x="93.726" y="30.48"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -7463,13 +7512,15 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="JST2" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="33.02" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="48.26" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="+" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="33.02" x2="93.726" y2="33.02" width="0.1524" layer="91"/>
 <junction x="88.9" y="33.02"/>
 <pinref part="SWITCH" gate="MSK-12C02" pin="COM"/>
+<wire x1="93.726" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="95.25" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="60.96" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
 <junction x="88.9" y="48.26"/>
+<pinref part="JST-XH" gate="G$1" pin="P$1"/>
+<junction x="93.726" y="33.02"/>
 </segment>
 </net>
 <net name="N$2" class="0">

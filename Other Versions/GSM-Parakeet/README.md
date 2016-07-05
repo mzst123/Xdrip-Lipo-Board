@@ -1,7 +1,7 @@
 # GSM / Parakeet Version
 
 # Experimental Version - has not been tested yet
-To order the PCB click [here](https://oshpark.com/shared_projects/ULWOZhT9).
+To order the PCB click [here](https://oshpark.com/shared_projects/pyIarV64).
 
 This version uses a GSM module (SIM800L) instead of bluetooth. Check the [Parakeet project](https://jamorham.github.io/) for more info.
 
@@ -14,6 +14,11 @@ I had to switch to the TP4056 Charging IC because it has more power and is cheap
 - SIM800L Module sends the CGM data directly to the cloud
 - Battery can be soldered directly on the PCB (2.54mm header) or via a JST-2 connector (2mm pitch)
 - Charging Status LED, Red = charging; Green = Full
+
+## Changelog
+rev.1.0 - added JST-XH footprint, improoved pcb traces and vias
+rev.0.9 - fixed SIM800L footprint, improoved pcb traces and vias
+rev.0.8 - first version ready to manufacture
 
 
 # Components
@@ -33,6 +38,7 @@ Most can be sourced from eBay
 - 1x micro switch MSK-12C02
 - 1x LiPo/Li-ion Battery (I recommend using a LiPo battery)
 - 1x [JST-2 connector 2mm pitch](https://www.sparkfun.com/products/8612) (optional - your battery needs to have the mating connector - sparkfun sells compatible batteries, or buy the connector separately and crimp it on your battery)
+- 1x JST-XH 2-pin connector (optional - only if your battery has this type of connector or you plan on crimping your own)
 
 # Setting the charging current
 
@@ -60,7 +66,7 @@ The charging Current should be set dependent on the battery used. Always use a c
 ## Pictures:
 
 
-![Top View](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/7fa87a1c6a92984cfb29e5c9aec2f850.png)
+![Top View](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/4a49c66479cc872754cc7636690bfe43.png)
 
 
-![Bottom View](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/b242ee0a8cb389cda338bd81cfca9369.png)
+![Bottom View](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/ba2c8e37a4952ce03b12c1a464a7485f.png)
