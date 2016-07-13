@@ -65,7 +65,7 @@ For the Wixel software i recommend [xBridge](https://github.com/jstevensog/wixel
 ## 3D Enclosure:
 
 I made an enclosure, however it still has to be improoved. To further reduce space, the JST-2 connector is not used in this design. In the future I might add one with JST-2 support. The battery compartment should fit an 850mah Lipo Battery (7x30x40mm). For more information and to download the .STL files go to the ["Enclosure"](https://github.com/mzst123/Xdrip-Lipo-Board/tree/master/Enclosure) Folder.
-![Enclosure](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Enclosure/enclosure_3.jpg)
+![Enclosure](https://github.com/mzst123/Xdrip-Lipo-Board/blob/master/Enclosure/enclosure_1.jpg)
 
 
 ## Pictures:
